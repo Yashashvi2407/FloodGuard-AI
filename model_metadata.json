@@ -1,0 +1,29 @@
+{
+  "model_name": "FloodGuard Random Forest Hydrometeorological Classifier",
+  "classes": [
+    "High",
+    "Low",
+    "Medium"
+  ],
+  "feature_columns": [
+    "DFSI",
+    "precipitation_mm",
+    "rain_sum_24h",
+    "humidity_percent",
+    "temperature_c",
+    "wind_speed_kmh",
+    "cloud_cover_percent"
+  ],
+  "accuracy": 0.9818,
+  "feature_importances": {
+    "DFSI": 0.03,
+    "precipitation_mm": 0.2569,
+    "rain_sum_24h": 0.3183,
+    "humidity_percent": 0.1156,
+    "temperature_c": 0.0151,
+    "wind_speed_kmh": 0.0653,
+    "cloud_cover_percent": 0.1988
+  },
+  "district_count": 732,
+  "state_count": 37
+}
