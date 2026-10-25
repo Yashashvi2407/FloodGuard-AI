@@ -1,4 +1,4 @@
-# ?? FloodGuard AI
+#  FloodGuard AI
 ### Real-Time Predictive Hydro-Meteorological Flood Risk Intelligence
 **3rd-Semester AI / CSE Academic Project**
 
@@ -6,7 +6,7 @@ FloodGuard AI is a modern, production-ready Full-Stack Web Application designed 
 
 ---
 
-## ??? Architecture & Core Components
+##  Architecture & Core Components
 
 1. **Hydrometeorological AI Pipeline (	rain_and_export.py & model.pkl)**:
    - Ingests empirical District Flood Susceptibility Index (DFSI.csv) across 730+ Indian districts.
@@ -28,41 +28,23 @@ FloodGuard AI is a modern, production-ready Full-Stack Web Application designed 
 
 ---
 
-## ?? Project Directory Structure
+##  Project Directory Structure
 
 `	ext
 FloodGuard_Project/
-??? app.py                      # Flask REST API backend server
-??? DFSI.csv                    # Cleaned 730+ district flood susceptibility index
-??? train_and_export.py         # ML model training and evaluation script
-??? train_and_export.ipynb      # Academic Jupyter notebook with analysis
-??? model.pkl                   # Trained Scikit-Learn Random Forest pipeline
-??? model_metadata.json         # Model metrics and feature importances
-??? templates/
-?   ??? index.html              # High-fidelity glassmorphism dashboard
-??? static/
-?   ??? images/                 # 4K HD weather backdrops & assets
-??? README.md                   # Complete academic documentation
+--- app.py                      # Flask REST API backend server
+--- DFSI.csv                    # Cleaned 730+ district flood susceptibility index
+--- train_and_export.py         # ML model training and evaluation script
+--- train_and_export.ipynb      # Academic Jupyter notebook with analysis
+--- model.pkl                   # Trained Scikit-Learn Random Forest pipeline
+--- model_metadata.json         # Model metrics and feature importances
+--- templates/
+-   --- index.html              # High-fidelity glassmorphism dashboard
+--- static/
+-   --- images/                 # 4K HD weather backdrops & assets
+-- README.md                   # Complete academic documentation
 `
 
 ---
 
-## ?? How to Run Locally
-
-### 1. Activate Virtual Environment
-`ash
-# Windows PowerShell:
-.venv\Scripts\Activate.ps1
-`
-
-### 2. (Optional) Re-train ML Model
-`ash
-python train_and_export.py
-`
-
-### 3. Launch the Web Application
-`ash
-python app.py
-`
-
-Open your browser at: **http://localhost:5000**
+localhost:5000**
